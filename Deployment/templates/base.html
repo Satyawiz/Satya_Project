@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Google</title>
+    </head>
+
+    <body>
+        <form action='predict' method="POST">
+        <input type='text' name='experience' placeholder="experience" required='required'/>
+        <input type='text' name='test_score' placeholder="test_score" required='required'/>
+        <input type='text' name='Interview_score' placeholder="Interview_score" required='required'/>
+        <button type="submit">predict</button>
+        </form> 
+        {{prediction_text}}   
+    </body>
+    <scrpit src= 'static/abc.js'>
+</html>
